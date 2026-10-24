@@ -11,7 +11,7 @@ docker buildx build --platform linux/amd64,linux/arm64 -t projectscache/minecraf
 docker pull projectscache/minecraft_java_server:latest
 ```
 
-# Start the server:
+# How to start the server:
 
 ```
 docker run -d -p 25565:25565 --name minecraft_server projectscache/minecraft_java_server:latest
