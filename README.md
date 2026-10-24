@@ -1,7 +1,7 @@
 # minecraft_java_server
 Docker image for a Minecraft Java Edition server
 
-# How to build the image
+# How to build the image:
 ```
 docker buildx build --platform linux/amd64,linux/arm64 -t projectscache/minecraft_java_server .
 ```
